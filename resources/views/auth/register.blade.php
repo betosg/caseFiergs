@@ -1,11 +1,11 @@
 @extends('layouts.auth-master')
-
+@include('layouts.partials.navbar')
 @section('content')
 <div style="margin: 15px;">
 <p class="h3">Cadastro Usuário</p><hr>
     <form method="post" action="{{ route('register.perform') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}" />
-        <h1 class="h3 mb-3 fw-normal">Register</h1>
+        <!--h1 class="h3 mb-3 fw-normal">Register</h1-->
         <div class="mb-3">
             <label for="">Email</label>
             <input type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="name@exemplo.com" required="required" autofocus>

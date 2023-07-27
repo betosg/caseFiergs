@@ -1,8 +1,10 @@
 @extends('layouts.auth-master')
-
+@include('layouts.partials.navbar')
 @section('content')
 <div style="margin: 15px;">
-<p class="h3">Login</p><hr>
+<p class="h3">Login</p>
+<p class="h6"><a href="{{ route('register.perform') }}">Novo Usuário</a></p>
+<hr>
     <form method="post" action="{{ route('login.perform') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}" />
 

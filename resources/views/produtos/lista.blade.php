@@ -1,6 +1,7 @@
 @extends('layouts.app-master')
 @section('content')
 <div style="margin-top: 15px;">
+@auth
 <p class="h3">Produtos</p>
 <p class="h6"><a href="/produtos/cadastro/">Novo</a></p>
 <hr>
@@ -35,5 +36,11 @@
         <?php }?>
         </tbody>
     </table>
+    @endauth
+    @guest
+        <p class="h3">Produtos</p>        
+        <p class="h6"><a href="/login">Login</a></p>        
+        <p class="lead">Para visualizar a lista de produtos é preciso efetuar o <a href="/login">login</a>.</p>
+        @endguest
 </div>
 @endsection
