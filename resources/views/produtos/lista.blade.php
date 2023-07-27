@@ -38,9 +38,9 @@
     </table>
     @endauth
     @guest
-        <p class="h3">Produtos</p>        
-        <p class="h6"><a href="/login">Login</a></p>        
-        <p class="lead">Para visualizar a lista de produtos é preciso efetuar o <a href="/login">login</a>.</p>
+        <!--p class="h3">Produtos</p-->        
+        <p class="h3"><a href="/login">Login</a></p>        
+        <p class="lead">Efetue o <a href="/login">login</a> para acesso ao sistema.</p>
         @endguest
 </div>
 @endsection

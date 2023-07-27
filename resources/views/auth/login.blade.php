@@ -24,7 +24,7 @@
         </div-->
 
         <div class="mb-3">
-            <label for="">Nome</label>
+            <label for="">Usuário</label>
             <input type="text" name="username" value="{{ old('username') }}" class="form-control" required>
             @if ($errors->has('username'))
                 <span class="text-danger text-left">{{ $errors->first('username') }}</span>

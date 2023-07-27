@@ -2,6 +2,9 @@
 
 O Sistema de Gerenciamento de Produtos e Categorias é uma aplicação web desenvolvida em Laravel 8.83.27, com suporte ao banco de dados MySQL 8.0. Esse sistema proporciona um ambiente completo para controle eficiente de produtos e categorias associadas, oferecendo funcionalidades como listagem, cadastro, atualização e deleção tanto para produtos quanto para categorias. Além disso, foi implementada uma funcionalidade de login que restringe o acesso a usuários não cadastrados, com a opção de criar uma nova conta para obter acesso.
 
+As intruções para a operação das telas estão contidas neste documento, podendo ser utilizado como um guia basico para os usuários do sistema
+https://l1nk.dev/EeObV
+
 ### Funcionalidades Principais:
 
 1. **Listagem de Produtos:** O sistema permite visualizar uma lista completa de todos os produtos cadastrados, exibindo informações relevantes para cada item.
