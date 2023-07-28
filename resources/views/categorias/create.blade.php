@@ -6,7 +6,7 @@
         @csrf
         <div class="mb-3">
         <label for="">Nome</label><br>
-            <input type="text" name="nome" value="" class="form-control"></br>
+            <input type="text" name="nome" value="" class="form-control" required></br>
             <label for="">Ativo/Inativo</label><br>
             <select name="ativo" class="form-control">
                 <option value="1">Ativo</option>

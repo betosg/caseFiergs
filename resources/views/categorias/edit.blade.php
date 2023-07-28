@@ -6,7 +6,7 @@
         @csrf
         <div class="mb-3">
             <label for="">Nome</label><br>
-            <input type="text" name="nome" value="{{ $categoria->nome }}"></br>
+            <input type="text" name="nome" value="{{ $categoria->nome }}" required></br>
         </div>
         <div class="mb-3">
             <label for="">Ativo</label><br>
